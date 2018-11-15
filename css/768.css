@@ -5,6 +5,7 @@
     text-align: center;
     width: unset;
   }
+
   .main-content.content-input button {
     margin-left: 0;
     height: 50px;
@@ -119,7 +120,7 @@
     margin-right: 10px;
   }
   .main-content.content-jumbotron {
-    padding-top: 220px;
+    padding-top: 50px;
   }
   .header {
     display: none;

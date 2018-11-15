@@ -6,6 +6,11 @@
   .footer-logo {
     display: none;
   }
+    .main-content.content-jumbotron {
+   background: url("../img/banner-small.jpg") center/cover no-repeat;	
+     padding-top: 100px;
+    height: 390px;
+  }
     .half-width,
   .half-width-inline,
   .half-width-column,
@@ -28,10 +33,6 @@
   .hamburger-slide a {
     font-size: 16px;
     line-height: 40px;
-  }
-  .main-content.content-jumbotron {
-    height: 310px;
-    padding-top: 100px;
   }
   .main-content.content-jumbotron p {
     width: 90%;

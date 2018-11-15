@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 12:34:54
+/* Smarty version 3.1.32, created on 2018-11-15 14:15:39
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bed3dbe82fe35_10677967',
+  'unifunc' => 'content_5bed555bc668e8_32142785',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bed3dbe82fe35_10677967 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bed555bc668e8_32142785 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="modal modal-first-touch wow fadeIn" data-wow-delay=".5s">
 	<a href="#" class="modal-close"></a>
 	<form id="form-modal" method="post" action='send.php'>
