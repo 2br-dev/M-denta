@@ -35,7 +35,7 @@
   }
   .main-content.content-jumbotron p {
     width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
   }
   .main-content.content-gallery {
     margin: 40px auto 0;

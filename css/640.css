@@ -2,6 +2,9 @@
   body {
     font-size: 16px;
   }
+  .main-content.content-jumbotron strong {
+    line-height: 1.5em;
+  }
   .hamburger-slide {
     height: 90vh;
   }
