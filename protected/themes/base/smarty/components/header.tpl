@@ -9,31 +9,31 @@
             </div>
         {/if}
         <div class="header-contacts">
-            <a href="http://instagram.com/mdenta_krd" target="_blank"><img src="/img/instagram.png" alt="Instagram" class="header-contacts-instagram"></a><br>
-            <a href="tel:+78612980851" class="header-contacts-phone">+7 (861) 298-08-51</a>
-            <a href="#" class="header-contacts-phone header-contacts-phone-desc">+7 (861) 298-08-51</a>
+            <a href="https://www.instagram.com/stomatolog_evgeney/" target="_blank"><img src="/img/instagram.png" alt="Instagram" class="header-contacts-instagram">stomatolog_evgeney</a>
+            <a href="https://www.instagram.com/stomatolog_evgeney/" target="_blank"><img src="/img/stomatolog_evgeney.jpg" alt="Instagram" class="header-contacts-instagram" style="border-radius: 50%"><span id="inst_count"></span> подписчиков</a>
         </div>
         <div class="header-adress">
-            <p> г. Краснодар, ул. Северная, 490, БЦ "Кутузовский", кабинет 603 (6 этаж) </p>
+            <p> г. Краснодар, ул. Северная, 490, БЦ "Кутузовский", кабинет 603</p>
+            <a href="tel:+78612980851" class="header-contacts-phone">+7 (861) 298-08-51</a>
+            <a href="#" class="header-contacts-phone header-contacts-phone-desc">+7 (861) 298-08-51</a>
         </div>
     </section>
 
     <div class="hamburger">
-        <div class="hamburger-flex">
-            <div class="menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <a href="/"><div class="hamburger-logo">
-            </div></a>
+        <div class="hamburger-flex"> 
+            <a href="/"><div class="hamburger-logo"></div></a>
             <div class="hamburger-phone">
                 <a href="tel:+78612980851">+7 (861) 298-08-51</a>
+            </div>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar" style="display: none"></span>
             </div>
         </div>
         <div class="hamburger-slide">
             <div class="hamburger-slide-container">
                 <div class="hamburger-slide-contacts">
-                    <a class="hamburger-instagram" href="http://instagram.com/mdenta_krd" target="_blank"><img src="/img/instagram.png" alt="Instagram" class="header-contacts-instagram">mdenta_krd</a>
+                    <a class="hamburger-instagram" href="https://www.instagram.com/stomatolog_evgeney/" target="_blank"><img src="/img/instagram.png" alt="Instagram" class="header-contacts-instagram">stomatolog_evgeney</a>
                     <a class="hamburger-adress" href="https://www.google.com/maps/search/%D0%BC-%D0%B4%D0%B5%D0%BD%D1%82%D0%B0/@45.0366387,38.9945174,17z/data=!3m1!4b1">г. Краснодар, ул. Северная, 490</a>
                 </div>
                 {if isset($_sitemenu.header_menu) nocache}

@@ -1,5 +1,8 @@
  $(document).ready(function() {
-
+   	// анимации для десктоп версий
+   	if($(window).width() >= 1024){
+  		new WOW().init();
+	}
     // SLICK
      $('.gallery-license').slick({
          slidesToShow: 1,
@@ -34,18 +37,18 @@
      });
 
      // Цены
-     $(".link").click(function() {
+     $(".link.centre").click(function() {
          let id = this.id.slice(0, -1);
          $("#" + id).slideToggle();
      });
 
-     $('.link').toggle(function() {
+     $('.link.centre').toggle(function() {
          $(this).text('↑ свернуть ↑');
      }, function() {
          $(this).text('↓ развернуть ↓');
      });
 
-     $(".btn").click(function() {
+     $(".centre.btn").click(function() {
          let id = this.id.slice(0, -1);
          $("#" + id).slideToggle();
      });
@@ -120,8 +123,19 @@
       }
         $('.modal-wrapper').toggle();
         $('.hamburger-slide').slideToggle();
+        $('.menu .bar:last-child').show();
     });
 
+	$.ajax({ 
+        type: 'GET', 
+        url: 'https://www.instagram.com/web/search/topsearch/?query=stomatolog_evgeney', 
+        data: { get_param: 'value' }, 
+        success: function (data) { 
+            var followers = '';
+            followers = data.users[0].user.follower_count;   
+            document.getElementById('inst_count').innerHTML = followers;       
+        }
+    });
  });
 
- new WOW().init();
+ 

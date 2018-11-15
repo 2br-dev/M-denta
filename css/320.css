@@ -1,21 +1,10 @@
 @media screen and (max-width: 376px) {
-  body {
-    font-size: 18px;
-  }
+
   .red-link {
-    font-size: 18px;
+    font-size: 16px;
   }
   .red-centre-bold {
-    font-size: 20px;
-  }
-  .half-width,
-  .half-width-inline,
-  .half-width-column,
-  .container-flex-pl13 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    font-size: 18px;
   }
   .container-flex-pl13-info__text {
     text-align: center;
@@ -24,7 +13,7 @@
     padding-right: 0;
   }
   .black-centre-24 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .half-width p {
     padding-left: 0;
@@ -34,16 +23,13 @@
   }
   .hamburger-slide a {
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .hamburger-flex {
     padding: 0 15px;
   }
-  .hamburger-phone {
-    display: none;
-  }
   .hamburger-slide-container {
-    height: 90%;
+    height: 100%;
   }
   input {
     height: 60px;
@@ -53,7 +39,6 @@
   form button {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 60px !important;
   }
   hr {
     margin-top: 45px;
@@ -65,16 +50,13 @@
   .main-content.content-chief-text-sign {
     padding-right: 20px;
   }
-  .main-content.content-appreciate-advantages {
-    padding-top: 50px;
-  }
   .main-content.content-gallery-photos {
     width: 80%;
     margin: 0 auto;
     margin-left: 20px;
   }
   .main-content.content-gallery-license img {
-    margin: 25px 0 0 50px;
+    margin: 25px 0 0 70px;
     max-width: 150px;
   }
   .main-content.content-gallery-license {
@@ -107,17 +89,20 @@
     width: 235px !important;
     margin-left: 85px !important;
   }
-  .contacts-flex-item:first-child:before {
-    top: -10px;
-  }
+
   .contacts-flex-item:nth-child(2):before {
     left: -57px;
-    top: 0;
+    top: 7px;
   }
   .contacts-flex-item:nth-child(3):before {
     left: -69px;
   }
   .contacts-flex-item:nth-child(4):before {
     left: -63px;
+  }
+}
+@media screen and (min-width: 330px) and (max-width: 376px) {
+  .contacts-flex{
+    margin-left: 20px;
   }
 }

@@ -112,7 +112,7 @@ html {
 }
 
 .half-width {
-    width: @container-width * .4;
+    width: 400px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -133,7 +133,7 @@ html {
         display: inline-block;
         vertical-align: top;
         margin: 0 auto 20px;
-        width: @container-width * .4;
+        width: 400px;
     }
 }
 
@@ -142,7 +142,7 @@ html {
 }
 
 .half-width-column {
-    width: @container-width * .4;
+    width: 400px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -222,7 +222,7 @@ html {
 
 .container-812 {
     position: relative;
-    width: @container-width * .812;
+    width: 812px;
     margin: 0 auto;
 }
 
@@ -286,32 +286,32 @@ html {
     &:before {
         content: '';
         display: block;
-        width: 60px;
-        height: 7px;
+        width: 45px;
+        height: 6px;
         background: @maincolor;
     }
 
     &:after {
         content: '';
         display: block;
-        width: 60px;
-        height: 7px;
+        width: 45px;
+        height: 6px;
         background: @maincolor;
     }
 
     .bar {
         display: block;
-        width: 60px;
-        height: 7px;
+        width: 45px;
+        height: 6px;
         background: @maincolor;
-        margin: 14px 0;
+        margin: 10px 0;
 
         &:last-child {
-            opacity: 0;
+            opacity: 1;
             -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+            transform: rotate(45deg);
             position: absolute;
-            top: 25px;
+            top: 19px;
         }
     }
 }
@@ -350,7 +350,7 @@ li:before {
     }
 
     &-links {
-        width: @container-width * 0.5;
+        width: 500px;
         margin-top: 55px;
         text-align: right;
 
@@ -371,7 +371,7 @@ li:before {
 
     &-contacts,
     &-adress {
-        width: @container-width * 0.25;
+        width: 250px;
     }
 
     &-contacts {
@@ -440,7 +440,7 @@ li:before {
         &-link {
             height: 50px;
             line-height: 50px;
-            width: @container-width * 0.24;
+            width: 240px;
             color: white;
             font-weight: bold;
             text-decoration: none;
@@ -454,7 +454,7 @@ li:before {
 
             &:nth-child(2),
             &:nth-child(6) {
-                width: @container-width * 0.17;
+                width: 170px;
             }
         }
     }
@@ -495,6 +495,7 @@ li:before {
             border-radius: 10px;
             width: 330px;
             padding: 20px 20px 15px;
+            box-sizing: border-box;
 
             &::-webkit-input-placeholder {
                 font-size: 24px;
@@ -562,7 +563,7 @@ li:before {
             -webkit-box-align: center;
             -ms-flex-align: center;
             align-items: center;
-            width: @container-width * .18;
+            width: 180px;
             width: 175px;
             margin: 20px;
 
@@ -587,6 +588,8 @@ li:before {
                 animation-duration: infinity;
                 -webkit-animation: flip_animation 1.5s infinite;
                 animation: flip_animation 1.5s infinite;
+                animation-iteration-count: 1;
+                -webkit-animation-iteration-count: 1;
             }
 
             a::before {
@@ -658,7 +661,7 @@ li:before {
         }
 
         &-advantages {
-            width: @container-width + 150;
+            width: @container-width + 150px;
             margin: 0 auto;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1441,8 +1444,10 @@ hr {
             bottom: 30px;
             left: 0;
             right: 0;
-            -webkit-animation: rotating 3.5s ease-in-out infinite;
-            animation: rotating 3.5s ease-in-out infinite;
+            -webkit-animation: rotating 1s ease-in-out;
+            animation: rotating 1s ease-in-out;
+            animation-iteration-count: 1;
+            -webkit-animation-iteration-count: 1;
         }
     }
 
