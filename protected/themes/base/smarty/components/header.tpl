@@ -1,10 +1,10 @@
 {strip}
-    <section class="header">
+    <header class="header">
         <a href="/"><img class="header-logo"src="/img/logo.png" alt="M-Denta"></a>
         {if isset($_sitemenu.header_menu) nocache}
             <div class="header-links">
                 {foreach $_sitemenu.header_menu as $e}
-                    <a href="/{$e.system}" class="header-links-link">{$e.name}</a>
+                    <a href="/{$e.system}" class="header-links-link" title="{$e.name}">{$e.name}</a>
                 {/foreach}
             </div>
         {/if}
@@ -12,12 +12,12 @@
             <a href="https://www.instagram.com/stomatolog_evgeney/" target="_blank"><img src="/img/instagram.png" alt="Instagram" class="header-contacts-instagram">stomatolog_evgeney</a>
             <a href="https://www.instagram.com/stomatolog_evgeney/" target="_blank"><img src="/img/stomatolog_evgeney.jpg" alt="Instagram" class="header-contacts-instagram" style="border-radius: 50%"><span id="inst_count"></span> подписчиков</a>
         </div>
-        <div class="header-adress">
-            <p> г. Краснодар, ул. Северная, 490, БЦ "Кутузовский", кабинет 603</p>
+        <div class="header-adress">            
             <a href="tel:+78612980851" class="header-contacts-phone">+7 (861) 298-08-51</a>
             <a href="#" class="header-contacts-phone header-contacts-phone-desc">+7 (861) 298-08-51</a>
+            <p> г. Краснодар, ул. Северная, 490, БЦ "Кутузовский", кабинет 603</p>
         </div>
-    </section>
+    </header>
 
     <div class="hamburger">
         <div class="hamburger-flex"> 

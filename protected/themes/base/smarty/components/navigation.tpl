@@ -2,7 +2,7 @@
 
     {if $uri[0] == "implantaciya-zubov" && !$uri[1]}
         <section class="implantacia-main">
-            <p class="black-centre-24">Имплантация зубов</p>
+            <h1 class="black-centre-24">Имплантация зубов в Краснодаре</h1>
             
             {if isset($_sitemenu.implantaciya) nocache}
              <div class="container-flex-2">
@@ -14,8 +14,7 @@
                     <p>Сегодня потеря зубов уже не считается нерешаемой проблемой. Операции по установке зубных имплантатов успешно проводятся более 40 лет. За это время они доказали свою безопасность, практичность и функциональный результат.</p>
                 </div>
             {/if}   
-                <img src="/img/implantaciya-main.png" alt="implantacia-main">
-
+                <img src="/img/implantaciya-main.jpg" alt="Имплантация зубов в Краснодаре в стоматологии М-Дента" title="Имплантация зубов в Краснодаре в стоматологии М-Дента">
             </div>
         </section>  
     {/if}
@@ -32,7 +31,7 @@
                     {/foreach}
                 </div>
             {/if}   
-                <img src="/img/protezirovanie-main.png" alt="protezirovanie-main">
+                <img src="/img/protezirovanie-main.jpg" alt="Протезирование зубов в Краснодаре"  title="Протезирование зубов в Краснодаре">
             </div>
         </section>
     {/if}

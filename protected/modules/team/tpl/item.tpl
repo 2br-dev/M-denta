@@ -5,9 +5,11 @@
     </div>
 
 	<div class="container-flex-2">
-		{foreach from=$team.image_file item=img}
-		<img src="{$img.sm.file}" alt="">
-		{/foreach}
+		<div class="container-flex-2-info__img">
+			{foreach from=$team.image_file item=img}
+			<img src="{$img.sm.file}" alt="">
+			{/foreach}
+		</div>
 		<div class="container-flex-2-info__text">
 			<p><strong>{$team.name}</strong></p>
 			<p>{$team.position}</p>

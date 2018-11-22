@@ -314,6 +314,9 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
 
+    Redirect 301 /o-klinike http://m-denta.ru/about
+    Redirect 301 /konsultaciya-gnatologa-v-krasnodare http://m-denta.ru/gnatologiya
+
     # (1)
     RewriteEngine On
 

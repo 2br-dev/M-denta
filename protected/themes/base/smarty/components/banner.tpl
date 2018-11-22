@@ -1,7 +1,7 @@
 {strip}
 {if $uri[0] == ''}
 		<div class="main-content content-jumbotron">
-        	<p><strong>"M-Denta"</strong><br> Авторская стоматологическая клиника</p>
+        	<h1>Стоматологическая клиника в Краснодаре<br><strong>M-Denta</strong></h1>
 			
 			<div class="main-content content-input">
 			<form id="form-banner" method="post" action='send.php'>	

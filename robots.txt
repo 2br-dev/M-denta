@@ -1,2 +1,17 @@
 User-agent: *
-Disallow: /
+Disallow: /*?
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /*?utm_source
+Disallow: /cp
+Crawl-delay: 3
+Sitemap: http://m-denta.ru/sitemap.xml
+
+User-agent: Yandex
+Disallow: /*?
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /*?utm_source
+Disallow: /cp
+Host: http://m-denta.ru
+Sitemap: http://m-denta.ru/sitemap.xml

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 14:15:39
+/* Smarty version 3.1.32, created on 2018-11-22 17:20:32
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bed555bca7712_13069134',
+  'unifunc' => 'content_5bf6bb30be6089_69611414',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e39db5767abaa6e36aff741321c3c291eb5d9aee' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl',
-      1 => 1541677089,
+      1 => 1542893197,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bed555bca7712_13069134 (Smarty_Internal_Template $_smarty_tpl) {
-if ($_smarty_tpl->tpl_vars['uri']->value[0] == "implantaciya-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="implantacia-main"><p class="black-centre-24">Имплантация зубов</p><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
+function content_5bf6bb30be6089_69611414 (Smarty_Internal_Template $_smarty_tpl) {
+if ($_smarty_tpl->tpl_vars['uri']->value[0] == "implantaciya-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="implantacia-main"><h1 class="black-centre-24">Имплантация зубов в Краснодаре</h1><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'], 'e');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
@@ -30,7 +30,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
 </a><?php
 }
 }
-$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?><p>Сегодня потеря зубов уже не считается нерешаемой проблемой. Операции по установке зубных имплантатов успешно проводятся более 40 лет. За это время они доказали свою безопасность, практичность и функциональный результат.</p></div><?php }?><img src="/img/implantaciya-main.png" alt="implantacia-main"></div></section><?php }
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?><p>Сегодня потеря зубов уже не считается нерешаемой проблемой. Операции по установке зубных имплантатов успешно проводятся более 40 лет. За это время они доказали свою безопасность, практичность и функциональный результат.</p></div><?php }?><img src="/img/implantaciya-main.jpg" alt="Имплантация зубов в Краснодаре в стоматологии М-Дента" title="Имплантация зубов в Краснодаре в стоматологии М-Дента"></div></section><?php }
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == "protezirovanie-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="protezirovanie-main"><p class="black-centre-24">Протезирование зубов</p><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['protezirovanie'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['protezirovanie'], 'e');
 if ($_from !== null) {
@@ -40,7 +40,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
 </a><?php
 }
 }
-$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></div><?php }?><img src="/img/protezirovanie-main.png" alt="protezirovanie-main"></div></section><?php }
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></div><?php }?><img src="/img/protezirovanie-main.jpg" alt="Протезирование зубов в Краснодаре" title="Протезирование зубов в Краснодаре"></div></section><?php }
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == "esteticheskaya-stomatologiya" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="protezirovanie-main"><p class="black-centre-24">Эстетическая стоматология</p><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['estetic'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['estetic'], 'e');
 if ($_from !== null) {

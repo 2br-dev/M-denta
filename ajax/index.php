@@ -32,7 +32,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 		$errors = array();
 		$responce = array();
 
-		$con = new mysqli("127.0.0.1", "root", "", "mdenta");
+		$con = new mysqli("127.0.0.1", "burdilo_mdenta", "38180067", "burdilo_mdenta");
 	
 		if ($con -> connect_error) {
 			echo "database connection error";

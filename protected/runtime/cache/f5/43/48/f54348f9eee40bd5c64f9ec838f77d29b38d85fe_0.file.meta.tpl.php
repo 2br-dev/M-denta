@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-12 14:36:32
+/* Smarty version 3.1.32, created on 2018-11-22 16:52:45
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/fields/meta.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5be965c09ffb56_19368938',
+  'unifunc' => 'content_5bf6b4ade400f6_82231833',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:system/controll.tpl' => 7,
   ),
 ),false)) {
-function content_5be965c09ffb56_19368938 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf6b4ade400f6_82231833 (Smarty_Internal_Template $_smarty_tpl) {
 ?><table class="t1 table table-toggle-trigger" id="meta_data"><col width="200"><col><thead><tr class="th"><th colspan="2"><a href="#" class="table_hdr table_u js-table-toggle" data-toggle-init="true" data-toggle="meta_data"><i class="icon"></i> Мета данные</a></th></tr></thead><tbody><tr class="th"><td class="h hl va_m">Заголовок</td><td><div class="count-number-block clearfix"><span class="count-number-block-count<?php if (isset($_smarty_tpl->tpl_vars['title']->value) && mb_strlen($_smarty_tpl->tpl_vars['title']->value) > 65) {?> unlim<?php }?>" data-recomend="65"><?php if (isset($_smarty_tpl->tpl_vars['title']->value)) {
 echo mb_strlen($_smarty_tpl->tpl_vars['title']->value);
 } else { ?>0<?php }?>/65</span><input name="meta_title" placeholder="META title" value="<?php if (isset($_smarty_tpl->tpl_vars['title']->value)) {

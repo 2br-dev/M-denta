@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-15 14:15:39
+/* Smarty version 3.1.32, created on 2018-11-22 17:20:32
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/meta.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bed555bc63a91_55878300',
+  'unifunc' => 'content_5bf6bb30ba2d31_34292851',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ac0f45da910ce3de29ce350e6a0b8d27d3e1efc5' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/meta.tpl',
-      1 => 1542176225,
+      1 => 1542820987,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bed555bc63a91_55878300 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf6bb30ba2d31_34292851 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html class="no-js" itemscope="itemscope" itemtype="http://schema.org/<?php if (!isset($_smarty_tpl->tpl_vars['uri']->value[1])) {?>WebPage<?php } else { ?>ItemPage<?php }?>" lang="<?php echo $_smarty_tpl->tpl_vars['_page']->value['lang'];?>
 ">
@@ -74,6 +74,8 @@ function content_5bed555bc63a91_55878300 (Smarty_Internal_Template $_smarty_tpl)
 >(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);<?php echo '</script'; ?>
 >
 
+	<meta name="yandex-verification" content="f55a0705b41cd2fe" />
+
 	<!--[if lt IE 9]>
 	<?php echo '<script'; ?>
  src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"><?php echo '</script'; ?>
@@ -85,5 +87,38 @@ function content_5bed555bc63a91_55878300 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body class="page-<?php echo $_smarty_tpl->tpl_vars['_page']->value['system'];?>
 ">
+	
+	<!-- Yandex.Metrika counter -->
+	<?php echo '<script'; ?>
+ type="text/javascript" >
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter47938892 = new Ya.Metrika2({
+	                    id:47938892,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true,
+	                    webvisor:true
+	                });
+	            } catch(e) { }
+	        });
+
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks2");
+	<?php echo '</script'; ?>
+>
+	<noscript><div><img src="https://mc.yandex.ru/watch/47938892" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+	
 <?php }
 }
