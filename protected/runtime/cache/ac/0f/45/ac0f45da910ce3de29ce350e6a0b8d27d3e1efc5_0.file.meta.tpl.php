@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-22 17:20:32
+/* Smarty version 3.1.32, created on 2018-11-23 18:17:08
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/meta.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf6bb30ba2d31_34292851',
+  'unifunc' => 'content_5bf819f4c004c6_93466916',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ac0f45da910ce3de29ce350e6a0b8d27d3e1efc5' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/meta.tpl',
-      1 => 1542820987,
+      1 => 1542971407,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf6bb30ba2d31_34292851 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf819f4c004c6_93466916 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html class="no-js" itemscope="itemscope" itemtype="http://schema.org/<?php if (!isset($_smarty_tpl->tpl_vars['uri']->value[1])) {?>WebPage<?php } else { ?>ItemPage<?php }?>" lang="<?php echo $_smarty_tpl->tpl_vars['_page']->value['lang'];?>
 ">
 <head>
-	<title itemprop="name"><?php echo $_smarty_tpl->tpl_vars['_page']->value['title'];?>
+	<title itemprop="name"><?php echo $_smarty_tpl->tpl_vars['_meta']->value['title'];?>
 </title>
 	<meta name="author" content="serhserhserh">
 	<meta charset="utf-8">
@@ -39,11 +39,11 @@ function content_5bf6bb30ba2d31_34292851 (Smarty_Internal_Template $_smarty_tpl)
 	<link type="text/css" rel="stylesheet" href="/css/480.css" >
 	<link type="text/css" rel="stylesheet" href="/css/320.css" >
     
-    <meta content="<?php echo $_smarty_tpl->tpl_vars['_page']->value['robots'];?>
+    <meta content="<?php echo $_smarty_tpl->tpl_vars['_meta']->value['robots'];?>
 " name="robots">
-    <meta content="<?php echo $_smarty_tpl->tpl_vars['_page']->value['keywords'];?>
+    <meta content="<?php echo $_smarty_tpl->tpl_vars['_meta']->value['keywords'];?>
 " name="keywords">
-    <meta content="<?php echo $_smarty_tpl->tpl_vars['_page']->value['description'];?>
+    <meta content="<?php echo $_smarty_tpl->tpl_vars['_meta']->value['description'];?>
 " name="description" itemprop="description">
 	
 	<meta content="<?php echo $_smarty_tpl->tpl_vars['_page']->value['lang'];?>

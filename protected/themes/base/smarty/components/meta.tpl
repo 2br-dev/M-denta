@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" itemscope="itemscope" itemtype="http://schema.org/{if !isset($uri[1])}WebPage{else}ItemPage{/if}" lang="{$_page.lang}">
 <head>
-	<title itemprop="name">{$_page.title}</title>
+	<title itemprop="name">{$_meta.title}</title>
 	<meta name="author" content="serhserhserh">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
@@ -14,9 +14,9 @@
 	<link type="text/css" rel="stylesheet" href="/css/480.css" >
 	<link type="text/css" rel="stylesheet" href="/css/320.css" >
     
-    <meta content="{$_page.robots}" name="robots">
-    <meta content="{$_page.keywords}" name="keywords">
-    <meta content="{$_page.description}" name="description" itemprop="description">
+    <meta content="{$_meta.robots}" name="robots">
+    <meta content="{$_meta.keywords}" name="keywords">
+    <meta content="{$_meta.description}" name="description" itemprop="description">
 	
 	<meta content="{$_page.lang}" itemprop="inLanguage">
 

@@ -60,7 +60,7 @@
 
     {if $uri[0] == "about" && !$uri[1]}
         <section class="about-main">
-            <p class="black-centre-24">О клинике</p>
+            <h1 class="black-centre-24">Стоматология в Краснодаре M-Denta</h1>
             
             {if isset($_sitemenu.about) nocache}
              <div class="container-flex-2">

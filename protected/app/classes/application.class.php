@@ -460,7 +460,7 @@ final class Application extends CPInit
             if (empty($page))
             {
                 $this->page = $this->error;
-                $this->page['lang'] = $this->locale;
+                $this->page['lang'] = $this->locale;                
             }
             else
             {

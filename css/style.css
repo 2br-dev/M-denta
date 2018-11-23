@@ -304,7 +304,7 @@ li:before {
 .header-adress p {
   font-weight: normal;
   font-size: 16px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .header-contacts {
   display: -webkit-box;
@@ -448,7 +448,7 @@ li:before {
   outline: none;
 }
 .main-content.content-input button {
-  height: 56px;
+  height: 65px;
   background: #c42026;
   margin-left: -35px;
   color: white;
@@ -456,6 +456,7 @@ li:before {
   border-radius: 10px;
   border: none;
   padding: 0 20px;
+  outline: none;
 }
 .main-content.content-input button:hover {
   cursor: pointer;
@@ -1044,7 +1045,7 @@ hr {
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  background: rgba(200, 10, 0, 1);
+  background: #c42026;
 }
 .fotogalereya .container {
   display: -webkit-box;

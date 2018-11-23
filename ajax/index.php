@@ -85,8 +85,8 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 
             // Create the Transport
             $transport = (new \Swift_SmtpTransport('smtp.mail.ru', 465, 'ssl'))
-                ->setUsername('prog@2-br.ru')
-                ->setPassword('123123prog')
+                ->setUsername('m-denta-88@mail.ru')
+                ->setPassword('1878manu')
             ;
 
             // Create the Mailer using your created Transport
@@ -94,7 +94,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 
             // Create a message
             $message = (new \Swift_Message($subject))
-                ->setFrom(['prog@2-br.ru' => 'Заявка с сайта'])
+                ->setFrom(['m-denta-88@mail.ru' => 'Заявка с сайта'])
                 ->setTo($emails)
                 ->setBody($body, 'text/html')
             ;

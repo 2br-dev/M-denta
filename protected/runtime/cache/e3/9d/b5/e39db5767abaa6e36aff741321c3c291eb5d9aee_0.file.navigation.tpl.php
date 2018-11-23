@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-22 17:20:32
+/* Smarty version 3.1.32, created on 2018-11-23 18:17:08
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf6bb30be6089_69611414',
+  'unifunc' => 'content_5bf819f4c45187_04585003',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e39db5767abaa6e36aff741321c3c291eb5d9aee' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl',
-      1 => 1542893197,
+      1 => 1542963742,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf6bb30be6089_69611414 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bf819f4c45187_04585003 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == "implantaciya-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="implantacia-main"><h1 class="black-centre-24">Имплантация зубов в Краснодаре</h1><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'], 'e');
 if ($_from !== null) {
@@ -51,7 +51,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?><p><strong>Эстетическая стоматология — одно из наиболее востребованных направлений, при помощи которого специалисты улучшают внешний вид зубов. </strong></p><p>Эстетическая стоматология — это один из сложных разделов стоматологии, который требует высокого профессионализма, огромного опыта, а также индивидуального и творческого подхода.</p><p>Эстетическая стоматология включает в себя широкий спектр услуг: украшение, реставрация и отбеливание зубов, установка коронок и виниров, позволяющих успешно справиться с различными проблемами.</p></div><?php }?><img src="/img/estetic-main.png" alt="protezirovanie-main"></div></section><?php }
-if ($_smarty_tpl->tpl_vars['uri']->value[0] == "about" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="about-main"><p class="black-centre-24">О клинике</p><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['about'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
+if ($_smarty_tpl->tpl_vars['uri']->value[0] == "about" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="about-main"><h1 class="black-centre-24">Стоматология в Краснодаре M-Denta</h1><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['about'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['about'], 'e');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
