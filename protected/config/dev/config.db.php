@@ -1,7 +1,7 @@
 <?php
 
 define('DB_HOST', 'localhost');
-define('DB_BASE', 'mdenta');
+define('DB_BASE', 'mdenta-new');
 // define('DB_BASE', 'fastest');
 define('DB_USER', 'root');
 define('DB_PASS', '');

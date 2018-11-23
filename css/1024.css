@@ -22,14 +22,14 @@
     padding-bottom: 100px;
   }
   .main-content.content-circles-item-number {
-    font-size: 64px !important;
+    font-size: 70px !important;
   }
   .main-content.content-circles-item {
     margin: 0 20px;
     height: 220px;
   }
   .main-content.content-circles-item p {
-    font-size: 16px;
+    font-size: 18px;
     width: 180px;
   }
   .main-content.content-doctors {
@@ -52,7 +52,7 @@
     width: 90%;
   }
   #form-bottom button {
-    font-size: 16px;
+    font-size: 18px;
     -webkit-transform: translateY(-2px);
     -ms-transform: translateY(-2px);
     transform: translateY(-2px);
@@ -70,13 +70,31 @@
     padding-left: 30px;
     width: 225px;
   }
-
-  .main-content.content-circles-item-number {
-    margin-top: 75px;
+  .navigation {
+    display: none;
   }
   .contacts-flex {
     -webkit-transform: translateX(40px);
     -ms-transform: translateX(40px);
     transform: translateX(40px);
+  }
+}
+@media screen and (max-width: 1280px) {
+  .ourworks-container {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .header-contacts {
+    display: none;
+  }
+  .header {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 413px) {
+  .ourworks-image {
+    width: 100%;
   }
 }

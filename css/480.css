@@ -1,49 +1,44 @@
 @media screen and (max-width: 481px) {
-  body {
-    font-size: 14px;
-        line-height: 1.5em;
-  }
-  .footer-logo {
-    display: none;
-  }
-    .main-content.content-jumbotron {
-   background: url("../img/banner-small.jpg") center/cover no-repeat;	
-     padding-top: 100px;
-    height: 390px;
-  }
-    .half-width,
-  .half-width-inline,
-  .half-width-column,
-  .container-flex-pl13 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .hamburger-slide-container {
-    height: 99%;
-  }
-  .main-content.content-jumbotron p {
-    font-size: 22px;
-  }
   .hamburger-slide {
-    height: fit-content;
-    padding: 10px 20px 0;
+    height: 90vh;
   }
-  .hamburger-slide a {
-    font-size: 16px;
-    line-height: 40px;
+  .hamburger-logo {
+    position: unset;
+  }
+  .workresults-before,
+  .workresults-after {
+    width: 80%;
+    height: 270px;
+  }
+  .main-content.content-jumbotron {
+    height: 310px;
+    padding-top: 80px;
   }
   .main-content.content-jumbotron p {
     width: 90%;
-    margin-bottom: -10px;
+    margin-bottom: 20px;
   }
   .main-content.content-gallery {
     margin: 40px auto 0;
     width: 90%;
   }
+  .footer {
+    height: 50px;
+  }
+  .footer img {
+    display: none;
+  }
+  .footer-phones-phone:first-child {
+    margin-top: 0;
+  }
+  .footer-link {
+    display: none;
+  }
   .main-content.content-gallery-photos {
     width: 90%;
+  }
+  .main-content.content-appreciate {
+    margin-top: 20px;
   }
   .main-content.content-gallery-license {
     padding-left: 0;
@@ -84,35 +79,4 @@
   .main-content.content-chief-text {
     padding-left: 15px;
   }
-  .main-content.content-gallery .link {
-    transform: translateX(10px) !important;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-	}
-
 }
-@media screen and (min-width: 410px) and (max-width: 480px) {
-    .contacts-flex-item:first-child:before {
-    top: -2px;
-  }
-  .contacts-flex-item:nth-child(2):before {
-	left: -56px;
-    top: 6px;
-  }
-  .contacts-flex-item:nth-child(3):before {
-	left: -69px;
-  }
-  .contacts-flex-item:nth-child(4):before {
-	left: -62px;
-  }  
-}
-@media screen and (min-width: 410px) and (max-width: 481px) {
-  .footer {
-    position: relative;
-    height: 60px;
-  }  
-  .footer-phones {
-  	position: absolute;
-    top: -32px;
-  }

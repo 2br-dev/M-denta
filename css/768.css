@@ -1,21 +1,22 @@
 @media screen and (max-width: 769px) {
-  .main-content.content-input input {
-    padding: 0;
-    height: 56px;
-    text-align: center;
-    width: unset;
+  .ourworks-container {
+    max-width: 96%;
+    margin: 0 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
-
-  .main-content.content-input button {
-    margin-left: 0;
-    height: 50px;
-    font-size: 16px;
+  .ourworks-image {
+    margin: 0 auto 30px;
   }
-  form input::placeholder {
-    line-height: 50px;
+  .workresults-container {
+    width: 96%;
   }
-  .navigation {
-    display: none;
+  .workresults-before,
+  .workresults-after {
+    width: 225px;
+    height: 150px;
   }
   .hamburger {
     z-index: 31;
@@ -28,7 +29,7 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
   .hamburger-flex {
-    padding: 0 20px;
+    padding: 0 15px;
     background: #ffd9a0;
     height: 50px;
     display: -webkit-box;
@@ -37,31 +38,31 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    align-items: center;
   }
-.hamburger-phone a {
+  .hamburger-flex a {
+    width: 50px;
+  }
+  .hamburger-phone a {
     font-weight: bold;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: #c42026;
-}
-  .link.centre {
-    display: none;
   }
   .hamburger-logo {
     cursor: pointer;
+    position: absolute;
     height: 50px;
     width: 50px;
     background: url(../img/favicon.png) no-repeat center / cover;
-    background-size: 80%;
+    background-size: 60%;
   }
   .hamburger-links {
     border-top: 0.5px solid #c42026;
   }
   .hamburger-adress,
   .hamburger-instagram {
-    font-size: 22px;
+    font-size: 24px;
     text-transform: unset !important;
     font-weight: bold;
   }
@@ -70,7 +71,7 @@
     text-underline-position: under;
   }
   .hamburger-slide {
-    height: fit-content;
+    height: 425px;
     padding: 0 30px;
     z-index: 30;
     -webkit-transform: translateY(-1px);
@@ -91,7 +92,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: flex-start;
+    justify-content: space-around;
   }
   .hamburger-slide-contacts {
     display: -webkit-box;
@@ -119,8 +120,21 @@
     transform: translateY(8px);
     margin-right: 10px;
   }
+  .menu {
+    padding-top: 10px;
+  }
+  .menu .bar {
+    width: 30px;
+    height: 5px;
+    margin: 5px 0;
+  }
+  .menu:after,
+  .menu:before {
+    height: 5px;
+    width: 30px;
+  }
   .main-content.content-jumbotron {
-    padding-top: 50px;
+    padding-top: 220px;
   }
   .header {
     display: none;
@@ -170,11 +184,11 @@
     width: 65%;
   }
   .main-content.content-input input {
-    font-size: 22px;
-    line-height: normal;
-    height: 50px;
     text-align: center;
     width: unset;
+  }
+  .main-content.content-input button {
+    margin-left: 0;
   }
   .main-content.content-advantages {
     display: none;
@@ -198,7 +212,7 @@
     width: 225px;
   }
   .main-content.content-circles-item p {
-    font-size: 18px;
+    font-size: 20px;
   }
   .main-content.content-doctors {
     width: 730px;
@@ -215,7 +229,7 @@
     justify-content: space-around;
   }
   .main-content.content-gallery .link {
-    font-size: 22px;
+    font-size: 24px;
   }
   .main-content.content-gallery-license {
     padding-left: 30px;
@@ -229,7 +243,7 @@
     margin-bottom: 70px;
   }
   .menu .bar:last-child {
-    top: 19px;
+    top: 15px;
   }
   .content-gallery {
     -webkit-box-orient: vertical;
@@ -261,8 +275,8 @@
     margin-bottom: 5px;
   }
   .black-centre-24:first-child {
-    padding-top: 60px;
-    margin-bottom: 30px;
+    padding-top: 100px;
+    margin-bottom: 20px;
   }
   .half-width,
   .half-width-inline,
@@ -295,8 +309,7 @@
     width: 60%;
   }
   .container-flex-2-info__text {
-    width: 96%;
-    padding: 0 2%;
+    padding: 0 4%;
   }
   .container-flex-2-info__text ul {
     max-width: 94%;
@@ -310,9 +323,6 @@
     -ms-transform: unset;
     transform: unset;
   }
-  .contacts-flex-item:nth-child(4) {
-    margin-right: auto;
-	}
   .contacts-flex-item {
     width: 300px !important;
     text-align: left;
@@ -373,6 +383,6 @@
   .implantacia-mostovidniy,
   .implantacia-sinus,
   .estetic-chistka {
-    padding-top: 90px;
+    padding-top: 120px;
   }
 }

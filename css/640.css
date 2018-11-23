@@ -1,9 +1,37 @@
 @media screen and (max-width: 641px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
-  .main-content.content-jumbotron strong {
-    line-height: 1.5em;
+  .workresults-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .workresults-desc {
+    width: 100%;
+  }
+  .workresults-image {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .workresults-before,
+  .workresults-after {
+    width: 60%;
+    height: 250px;
   }
   .hamburger-slide {
     height: 90vh;
@@ -17,10 +45,6 @@
   .hamburger-slide a {
     width: 100%;
   }
-  .main-content.content-appreciate {
-    margin-top: 0;
-    text-align: center;
-   }
   .main-content.content-appreciate-advantages {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -29,24 +53,24 @@
     flex-direction: column;
   }
   .main-content.content-appreciate-advantages-item {
-    font-size: 16px;
-    width: 90%;
+    font-size: 22px;
+    text-align: center;
+    width: 75%;
     margin: 20px auto 0;
   }
   .main-content.content-jumbotron {
     height: 380px;
   }
   .main-content.content-appreciate-advantages-item-top {
-    font-size: 18px;
     -webkit-box-pack: center;
-    text-align: center;
     -ms-flex-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
+    align-items: center;
   }
   .main-content.content-input {
-    padding-top: 25px;
+    padding-top: 50px;
   }
   .main-content.content-doctors {
     -webkit-box-orient: vertical;
@@ -58,6 +82,7 @@
   .main-content.content-doctors-item {
     margin: 0 auto;
     width: 90%;
+    text-align: center;
   }
   .main-content.content-appreciate-header {
     display: none;
@@ -79,24 +104,13 @@
   .footer-text {
     display: none;
   }
-  .main-content.content-circles-item-number {
-    margin-top: 60px;
-	}
-  .fotogalereya .container-gallery, .fotogalereya .container-docs {
-    margin: 0 auto;
-    width: 300px;
-    border-radius: 50%;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    height: 300px;
-}
   .fotogalereya .container-gallery a,
   .fotogalereya .container-docs a {
-    width: 180px;
-    left: 60px;
-    box-sizing: border-box;
+    left: 20px;
+    right: 20px;
   }
   .about-team .half-width-column {
-    width: 100%;
+    width: 90%;
   }
   .btn {
     margin-bottom: 10px;
@@ -110,35 +124,27 @@
     width: 100%;
   }
   .half-width p {
+    height: 110px;
     text-align: left;
   }
   .container-flex-pl13 {
     width: 96%;
   }
-  .container-price{
-    width: 25% !important;
-  }
   .centre {
-    width: 90%;
+    width: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
   table {
-    font-size: 13px;
+    font-size: 18px;
     text-align: left;
   }
-  .pt5 {
-    padding-top: 0;
-	}
-  li {
-  	line-height: 20px;
-  }
   .black-centre-24 {
-    font-size: 24px;
+    font-size: 32px;
     margin: 30px auto;
   }
   .red-link {
-    font-size: 18px;
+    font-size: 26px;
   }
   .container-code {
     display: none;
@@ -147,32 +153,6 @@
     text-align: center !important;
   }
   th:first-child {
-    display: none;
-  }
-  .half-width {
-    margin: 0;
-  }
-  .half-width p {
-    text-align: center;
-  }
-  .container-flex-pl13 {
-  	text-align: center;
-    margin-bottom: 15px;
-  }
-    .container-flex-pl13-info__text {
-  	text-align: center;
-    margin-top: 10px;
-  }
-  .container-flex-pl13 img {
-    height: 115px;
-    padding-right: 0;
-}
-}
-@media screen and (min-width: 380px) and (max-width: 640px) {
-  .footer-phones {
-    position: absolute;
-  }
-  .footer-logo {
     display: none;
   }
 }
