@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-23 10:57:16
+/* Smarty version 3.1.32, created on 2018-11-26 09:32:20
   from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\structure\structure_tree.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf7b2dc7f4aa1_64338636',
+  'unifunc' => 'content_5bfb937481a400_76761841',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf7b2dc7f4aa1_64338636 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb937481a400_76761841 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['a_tree']->value, 'item');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {

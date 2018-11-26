@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-23 10:57:08
+/* Smarty version 3.1.32, created on 2018-11-26 09:31:55
   from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\system\group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf7b2d4c85e88_18260849',
+  'unifunc' => 'content_5bfb935ba1d650_66427608',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf7b2d4c85e88_18260849 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb935ba1d650_66427608 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['type']->value) {
 $_smarty_tpl->_assignInScope('type', 'radio');
 }?><div class="group"><?php

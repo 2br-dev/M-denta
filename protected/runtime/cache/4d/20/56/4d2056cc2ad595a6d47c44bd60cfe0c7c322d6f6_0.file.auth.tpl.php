@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-22 17:46:21
+/* Smarty version 3.1.32, created on 2018-11-26 09:15:39
   from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\auth.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf6c13de7a149_72155320',
+  'unifunc' => 'content_5bfb8f8b12c290_94098293',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:system/controll.tpl' => 1,
   ),
 ),false)) {
-function content_5bf6c13de7a149_72155320 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb8f8b12c290_94098293 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\libs\\smarty.plugins\\modifier.capi.php','function'=>'smarty_modifier_capi',),));
 ?><!DOCTYPE html>
 <!-- (c) lnk. celebro | celebro.ru -->

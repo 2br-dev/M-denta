@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-23 10:48:34
+/* Smarty version 3.1.32, created on 2018-11-26 09:27:16
   from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\meta\module\table.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf7b0d27c0081_11809321',
+  'unifunc' => 'content_5bfb9244ba7744_15644971',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:system/controll.tpl' => 2,
   ),
 ),false)) {
-function content_5bf7b0d27c0081_11809321 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb9244ba7744_15644971 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\libs\\smarty.plugins\\modifier.count_array.php','function'=>'smarty_modifier_count_array',),1=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\vendors\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
 ?><table class="module-table" id="meta_data"><?php if (!empty($_smarty_tpl->tpl_vars['meta_list']->value)) {?><colgroup><col width="30"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['meta_fields']->value, 'item');
