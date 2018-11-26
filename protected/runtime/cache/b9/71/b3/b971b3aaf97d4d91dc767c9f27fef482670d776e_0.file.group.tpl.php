@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-23 17:54:11
+/* Smarty version 3.1.32, created on 2018-11-26 09:02:34
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/system/group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf814934ae162_82371304',
+  'unifunc' => 'content_5bfb8c7af334c4_15078176',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf814934ae162_82371304 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb8c7af334c4_15078176 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['type']->value) {
 $_smarty_tpl->_assignInScope('type', 'radio');
 }?><div class="group"><?php

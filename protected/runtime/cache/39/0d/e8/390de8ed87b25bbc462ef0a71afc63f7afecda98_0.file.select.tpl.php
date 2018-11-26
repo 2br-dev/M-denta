@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-23 16:49:59
+/* Smarty version 3.1.32, created on 2018-11-26 09:02:34
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/fields/select.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf805879ea006_57544847',
+  'unifunc' => 'content_5bfb8c7af10df5_77898989',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf805879ea006_57544847 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb8c7af10df5_77898989 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="<?php echo $_smarty_tpl->tpl_vars['class_name']->value;?>
 "><select name="<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
 " data-placeholder="Выбрать" tabindex="<?php echo $_smarty_tpl->tpl_vars['index']->value;?>

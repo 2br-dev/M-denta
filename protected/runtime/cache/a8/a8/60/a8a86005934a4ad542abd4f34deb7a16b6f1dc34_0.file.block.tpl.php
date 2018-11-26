@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-23 18:11:59
+/* Smarty version 3.1.32, created on 2018-11-26 00:27:23
   from '/home/b/burdilo/m-denta.ru/public_html/protected/modules/pricelist/tpl/block.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bf818bf2026a8_28038969',
+  'unifunc' => 'content_5bfb13bb3eda29_96578383',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bf818bf2026a8_28038969 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb13bb3eda29_96578383 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="prices">
     <div class="container-812">
         <h2 class="black-centre-24">Прайс-лист на услуги</h2>
