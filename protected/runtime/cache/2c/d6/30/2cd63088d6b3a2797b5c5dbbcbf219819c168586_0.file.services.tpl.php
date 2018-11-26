@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 10:01:50
+/* Smarty version 3.1.32, created on 2018-11-26 10:37:21
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/services.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfb9a5e142c70_37042860',
+  'unifunc' => 'content_5bfba2b1790d74_14022666',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfb9a5e142c70_37042860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfba2b1790d74_14022666 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == '') {?><div class="main-content content-advantages"><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['services'])) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['services'], 'e');
 if ($_from !== null) {

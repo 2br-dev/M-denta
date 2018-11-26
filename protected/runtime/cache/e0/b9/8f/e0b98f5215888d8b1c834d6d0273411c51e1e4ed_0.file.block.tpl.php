@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 10:01:46
+/* Smarty version 3.1.32, created on 2018-11-26 10:36:52
   from '/home/b/burdilo/m-denta.ru/public_html/protected/modules/docs/tpl/block.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfb9a5a367a47_71123405',
+  'unifunc' => 'content_5bfba29493cda1_83058667',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfb9a5a367a47_71123405 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfba29493cda1_83058667 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == '') {?>
 <div class="main-content content-gallery ">
     <div class="main-content content-gallery-license wow fadeInUp" data-wow-delay=".75s">
