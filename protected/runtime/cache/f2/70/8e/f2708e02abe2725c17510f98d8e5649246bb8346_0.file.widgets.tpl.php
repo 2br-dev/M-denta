@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 09:02:11
+/* Smarty version 3.1.32, created on 2018-11-26 09:55:48
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/view/dashboard/widgets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfb8c63c03711_16054993',
+  'unifunc' => 'content_5bfb98f4971525_20114674',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,6 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfb8c63c03711_16054993 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb98f4971525_20114674 (Smarty_Internal_Template $_smarty_tpl) {
 }
 }
