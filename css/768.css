@@ -1,4 +1,7 @@
 @media screen and (max-width: 769px) {
+  .video {
+    margin: 20px auto 30px;
+  }
   .ourworks-container {
     max-width: 96%;
     margin: 0 2%;

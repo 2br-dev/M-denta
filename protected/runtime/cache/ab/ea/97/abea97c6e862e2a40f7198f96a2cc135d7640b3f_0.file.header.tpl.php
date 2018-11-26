@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 09:06:52
+/* Smarty version 3.1.32, created on 2018-11-26 09:40:27
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfb8d7ce47392_61970733',
+  'unifunc' => 'content_5bfb955b8b4293_97388503',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfb8d7ce47392_61970733 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb955b8b4293_97388503 (Smarty_Internal_Template $_smarty_tpl) {
 ?><header class="header"><a href="/"><img class="header-logo"src="/img/logo.png" alt="M-Denta"></a><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['header_menu'])) {?><div class="header-links"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['header_menu'], 'e');
 if ($_from !== null) {

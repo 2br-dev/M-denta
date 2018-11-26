@@ -1,11 +1,20 @@
 <?php
+<<<<<<< HEAD:protected/runtime/cache/9a/b9/61/9ab96177298e4c6f8755d2a48263957f17de0e0f_0.file.technology.tpl.php
 /* Smarty version 3.1.32, created on 2018-11-26 09:02:11
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/view/dashboard/technology.tpl' */
+=======
+/* Smarty version 3.1.32, created on 2018-11-26 09:30:56
+  from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\dashboard\technology.tpl' */
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/80/a4/1d/80a41d56dd3a7e8ee5e12372110c27d7113f5f17_0.file.technology.tpl.php
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
+<<<<<<< HEAD:protected/runtime/cache/9a/b9/61/9ab96177298e4c6f8755d2a48263957f17de0e0f_0.file.technology.tpl.php
   'unifunc' => 'content_5bfb8c63bfade1_53775635',
+=======
+  'unifunc' => 'content_5bfb9320e29642_52034013',
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/80/a4/1d/80a41d56dd3a7e8ee5e12372110c27d7113f5f17_0.file.technology.tpl.php
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +29,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD:protected/runtime/cache/9a/b9/61/9ab96177298e4c6f8755d2a48263957f17de0e0f_0.file.technology.tpl.php
 function content_5bfb8c63bfade1_53775635 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5bfb9320e29642_52034013 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/80/a4/1d/80a41d56dd3a7e8ee5e12372110c27d7113f5f17_0.file.technology.tpl.php
 ?><div class="technology_block"><a href="#" class="button mb5 " onclick="return toggle_item(event, this, 'server-info', ['zmdi-chevron-up', 'zmdi-chevron-down'])"><i class="zmdi zmdi-chevron-down"></i> <i class="zmdi zmdi-info-outline"></i> <?php echo t('server.informationen');?>
 </a><div class="technology_list clearfix hidden" id="server-info"><?php if (isset($_smarty_tpl->tpl_vars['technology']->value['php'])) {?><div class="technology_item"><div class="technology_version"><?php echo $_smarty_tpl->tpl_vars['technology']->value['php'];?>
 </div><div class="technology_logo"><a href="/<?php echo $_smarty_tpl->tpl_vars['ADMIN_DIR']->value;?>

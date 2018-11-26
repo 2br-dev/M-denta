@@ -1,11 +1,20 @@
 <?php
+<<<<<<< HEAD:protected/runtime/cache/31/09/d6/3109d6c1b579a0fc3ea1737d2e873be263b3add9_0.file.index.tpl.php
 /* Smarty version 3.1.32, created on 2018-11-26 09:02:11
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/view/dashboard/index/index.tpl' */
+=======
+/* Smarty version 3.1.32, created on 2018-11-26 09:30:56
+  from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\dashboard\index\index.tpl' */
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/bf/9e/62/bf9e62867138c7ea530dd4d1f3dfb899e88f3ee2_0.file.index.tpl.php
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
+<<<<<<< HEAD:protected/runtime/cache/31/09/d6/3109d6c1b579a0fc3ea1737d2e873be263b3add9_0.file.index.tpl.php
   'unifunc' => 'content_5bfb8c63be2bb3_61529299',
+=======
+  'unifunc' => 'content_5bfb9320d277c3_12705403',
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/bf/9e/62/bf9e62867138c7ea530dd4d1f3dfb899e88f3ee2_0.file.index.tpl.php
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +29,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD:protected/runtime/cache/31/09/d6/3109d6c1b579a0fc3ea1737d2e873be263b3add9_0.file.index.tpl.php
 function content_5bfb8c63be2bb3_61529299 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5bfb9320d277c3_12705403 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/bf/9e/62/bf9e62867138c7ea530dd4d1f3dfb899e88f3ee2_0.file.index.tpl.php
 if (isset($_smarty_tpl->tpl_vars['permissions']->value) && !empty($_smarty_tpl->tpl_vars['permissions']->value)) {?><h4>Ошибки прав на папки:</h4><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['permissions']->value, 'item', false, 'id');
 if ($_from !== null) {

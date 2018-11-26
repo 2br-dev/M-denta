@@ -1,11 +1,20 @@
 <?php
+<<<<<<< HEAD:protected/runtime/cache/2f/96/f8/2f96f8f1f5c50d75d59fa604c8af45cda516f777_0.file.pager.tpl.php
 /* Smarty version 3.1.32, created on 2018-11-26 09:06:59
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/system/pager.tpl' */
+=======
+/* Smarty version 3.1.32, created on 2018-11-26 09:27:17
+  from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\system\pager.tpl' */
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/f0/84/7e/f0847e1e1c1d09f7b4a48ad76a3a42bc7678af7e_0.file.pager.tpl.php
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
+<<<<<<< HEAD:protected/runtime/cache/2f/96/f8/2f96f8f1f5c50d75d59fa604c8af45cda516f777_0.file.pager.tpl.php
   'unifunc' => 'content_5bfb8d835125b1_44867545',
+=======
+  'unifunc' => 'content_5bfb92452ed077_25341040',
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/f0/84/7e/f0847e1e1c1d09f7b4a48ad76a3a42bc7678af7e_0.file.pager.tpl.php
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +29,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD:protected/runtime/cache/2f/96/f8/2f96f8f1f5c50d75d59fa604c8af45cda516f777_0.file.pager.tpl.php
 function content_5bfb8d835125b1_44867545 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/vendors/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
+=======
+function content_5bfb92452ed077_25341040 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\vendors\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/f0/84/7e/f0847e1e1c1d09f7b4a48ad76a3a42bc7678af7e_0.file.pager.tpl.php
 if (isset($_smarty_tpl->tpl_vars['pager_info']->value) && !empty($_smarty_tpl->tpl_vars['pager_info']->value)) {
 $_smarty_tpl->_assignInScope('uri', $_SERVER['REQUEST_URI']);
 if ($_smarty_tpl->tpl_vars['pager_info']->value['page_count'] != 1) {

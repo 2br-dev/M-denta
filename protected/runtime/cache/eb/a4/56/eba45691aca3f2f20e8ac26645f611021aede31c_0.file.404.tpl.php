@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 08:45:51
+/* Smarty version 3.1.32, created on 2018-11-26 09:50:24
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/core/404.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfb888fcb5ca2_48679556',
+  'unifunc' => 'content_5bfb97b0b00d95_16681587',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../system/sitemap.tpl' => 1,
   ),
 ),false)) {
-function content_5bfb888fcb5ca2_48679556 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb97b0b00d95_16681587 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/libs/smarty.plugins/function.compress.php','function'=>'smarty_function_compress',),));
 ?><!DOCTYPE html>
 <!-- (c) lnk. celebro | http://www.celebro.ru/ -->

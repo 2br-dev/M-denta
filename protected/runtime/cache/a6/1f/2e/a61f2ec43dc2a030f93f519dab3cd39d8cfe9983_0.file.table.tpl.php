@@ -1,11 +1,20 @@
 <?php
+<<<<<<< HEAD:protected/runtime/cache/a6/1f/2e/a61f2ec43dc2a030f93f519dab3cd39d8cfe9983_0.file.table.tpl.php
 /* Smarty version 3.1.32, created on 2018-11-26 09:06:59
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/view/meta/module/table.tpl' */
+=======
+/* Smarty version 3.1.32, created on 2018-11-26 09:27:16
+  from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\meta\module\table.tpl' */
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/87/0a/5a/870a5a0c24ec46d8dea2282b1c741a204553416f_0.file.table.tpl.php
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
+<<<<<<< HEAD:protected/runtime/cache/a6/1f/2e/a61f2ec43dc2a030f93f519dab3cd39d8cfe9983_0.file.table.tpl.php
   'unifunc' => 'content_5bfb8d834e2694_28863200',
+=======
+  'unifunc' => 'content_5bfb9244ba7744_15644971',
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/87/0a/5a/870a5a0c24ec46d8dea2282b1c741a204553416f_0.file.table.tpl.php
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +30,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:system/controll.tpl' => 2,
   ),
 ),false)) {
+<<<<<<< HEAD:protected/runtime/cache/a6/1f/2e/a61f2ec43dc2a030f93f519dab3cd39d8cfe9983_0.file.table.tpl.php
 function content_5bfb8d834e2694_28863200 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/libs/smarty.plugins/modifier.count_array.php','function'=>'smarty_modifier_count_array',),1=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/vendors/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
+=======
+function content_5bfb9244ba7744_15644971 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\libs\\smarty.plugins\\modifier.count_array.php','function'=>'smarty_modifier_count_array',),1=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\vendors\\smarty\\smarty\\libs\\plugins\\function.math.php','function'=>'smarty_function_math',),));
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/87/0a/5a/870a5a0c24ec46d8dea2282b1c741a204553416f_0.file.table.tpl.php
 ?><table class="module-table" id="meta_data"><?php if (!empty($_smarty_tpl->tpl_vars['meta_list']->value)) {?><colgroup><col width="30"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['meta_fields']->value, 'item');
 if ($_from !== null) {

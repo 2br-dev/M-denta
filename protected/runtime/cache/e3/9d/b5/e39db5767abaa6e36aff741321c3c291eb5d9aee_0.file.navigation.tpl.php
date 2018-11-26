@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 09:06:52
+/* Smarty version 3.1.32, created on 2018-11-26 09:40:27
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfb8d7ce73c81_78894131',
+  'unifunc' => 'content_5bfb955b8e3449_93954765',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfb8d7ce73c81_78894131 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfb955b8e3449_93954765 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == "implantaciya-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="implantacia-main"><h1 class="black-centre-24">Имплантация зубов в Краснодаре</h1><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'], 'e');
 if ($_from !== null) {

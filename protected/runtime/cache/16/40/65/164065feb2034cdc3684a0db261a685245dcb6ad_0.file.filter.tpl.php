@@ -1,11 +1,20 @@
 <?php
+<<<<<<< HEAD:protected/runtime/cache/16/40/65/164065feb2034cdc3684a0db261a685245dcb6ad_0.file.filter.tpl.php
 /* Smarty version 3.1.32, created on 2018-11-26 09:06:59
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/view/meta/module/filter.tpl' */
+=======
+/* Smarty version 3.1.32, created on 2018-11-26 09:27:16
+  from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\meta\module\filter.tpl' */
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/dc/b0/b4/dcb0b4d818d53c36b9f4094a85ea59569aa17a70_0.file.filter.tpl.php
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
+<<<<<<< HEAD:protected/runtime/cache/16/40/65/164065feb2034cdc3684a0db261a685245dcb6ad_0.file.filter.tpl.php
   'unifunc' => 'content_5bfb8d834a6388_83306260',
+=======
+  'unifunc' => 'content_5bfb924484bdc7_64861258',
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/dc/b0/b4/dcb0b4d818d53c36b9f4094a85ea59569aa17a70_0.file.filter.tpl.php
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +29,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD:protected/runtime/cache/16/40/65/164065feb2034cdc3684a0db261a685245dcb6ad_0.file.filter.tpl.php
 function content_5bfb8d834a6388_83306260 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_5bfb924484bdc7_64861258 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/dc/b0/b4/dcb0b4d818d53c36b9f4094a85ea59569aa17a70_0.file.filter.tpl.php
 $_smarty_tpl->_assignInScope('pagerCookie', "module_limit_".((string)$_smarty_tpl->tpl_vars['module_id']->value));?><div class="button-container clearfix"><div class="button-container--right"><?php if ($_smarty_tpl->tpl_vars['meta_filter']->value) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['meta_filter']->value, 'filter', false, 'name');
 if ($_from !== null) {
