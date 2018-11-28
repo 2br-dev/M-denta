@@ -1,20 +1,11 @@
 <?php
-<<<<<<< HEAD:protected/runtime/cache/d5/1b/6d/d51b6d65d28edc529b77c292ba296efeadd1db03_0.file.index.tpl.php
-/* Smarty version 3.1.32, created on 2018-11-26 09:06:59
+/* Smarty version 3.1.32, created on 2018-11-28 09:46:51
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/view/meta/module/index.tpl' */
-=======
-/* Smarty version 3.1.32, created on 2018-11-26 09:31:43
-  from 'C:\OpenServer\domains\mdenta.local\protected\app\core\admin-template\view\meta\module\index.tpl' */
->>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/b2/d2/fd/b2d2fd66a51bb01d9d0dbfec134605c153cb6f33_0.file.index.tpl.php
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-<<<<<<< HEAD:protected/runtime/cache/d5/1b/6d/d51b6d65d28edc529b77c292ba296efeadd1db03_0.file.index.tpl.php
-  'unifunc' => 'content_5bfb8d83483162_59198553',
-=======
-  'unifunc' => 'content_5bfb934f281598_55858089',
->>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/b2/d2/fd/b2d2fd66a51bb01d9d0dbfec134605c153cb6f33_0.file.index.tpl.php
+  'unifunc' => 'content_5bfe39db75e036_46433578',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -30,13 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:system/pager.tpl' => 1,
   ),
 ),false)) {
-<<<<<<< HEAD:protected/runtime/cache/d5/1b/6d/d51b6d65d28edc529b77c292ba296efeadd1db03_0.file.index.tpl.php
-function content_5bfb8d83483162_59198553 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfe39db75e036_46433578 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/vendors/smarty/smarty/libs/plugins/function.cycle.php','function'=>'smarty_function_cycle',),1=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/libs/smarty.plugins/modifier.add2query.php','function'=>'smarty_modifier_add2query',),));
-=======
-function content_5bfb934f281598_55858089 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\vendors\\smarty\\smarty\\libs\\plugins\\function.cycle.php','function'=>'smarty_function_cycle',),1=>array('file'=>'C:\\OpenServer\\domains\\mdenta.local\\protected\\app\\libs\\smarty.plugins\\modifier.add2query.php','function'=>'smarty_modifier_add2query',),));
->>>>>>> 833f72dd8909300f44b845e2f5fef535374a04be:protected/runtime/cache/b2/d2/fd/b2d2fd66a51bb01d9d0dbfec134605c153cb6f33_0.file.index.tpl.php
 if ((isset($_smarty_tpl->tpl_vars['modules']->value) && !empty($_smarty_tpl->tpl_vars['modules']->value)) || (isset($_smarty_tpl->tpl_vars['groups']->value) && !empty($_smarty_tpl->tpl_vars['groups']->value))) {?><div class="button-container clearfix"><?php if (isset($_smarty_tpl->tpl_vars['groups']->value) && !empty($_smarty_tpl->tpl_vars['groups']->value)) {?><div class="mb40"></div><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['groups']->value, 'item', false, NULL, 'item', array (
   'last' => true,

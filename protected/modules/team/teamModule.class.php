@@ -79,14 +79,14 @@ final class teamModule extends \Fastest\Core\Modules\Module
 
         # Мета теги
         #
-        // $meta = $this->metaData($team);
+        $meta = $this->metaData($team);
 
         # Хлебные крошки
         #
        // $this->addBreadCrumbs($team, [ 'id', 'id', 'name', 'system' ]);
 
         return [
-            //'meta'              =>  $meta,
+            'meta'              =>  $meta,
             //'page'              =>  [ 'name' => '' ],
             'team'     =>  $team,
             'breadcrumbs'       =>  $this->breadcrumbs,

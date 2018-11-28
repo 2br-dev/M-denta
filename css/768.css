@@ -2,6 +2,9 @@
   .video {
     margin: 20px auto 30px;
   }
+  .navigation {
+    display: none;
+  }
   .ourworks-container {
     max-width: 96%;
     margin: 0 2%;
@@ -110,7 +113,7 @@
   }
   .hamburger-slide a {
     text-transform: uppercase;
-    line-height: 55px;
+    line-height: 45px;
     display: inline-block;
     width: 50%;
     color: #c42026;
@@ -278,7 +281,7 @@
     margin-bottom: 5px;
   }
   .black-centre-24:first-child {
-    padding-top: 100px;
+    padding-top: 50px;
     margin-bottom: 20px;
   }
   .half-width,
@@ -386,6 +389,6 @@
   .implantacia-mostovidniy,
   .implantacia-sinus,
   .estetic-chistka {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 }

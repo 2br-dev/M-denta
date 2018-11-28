@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 10:36:47
+/* Smarty version 3.1.32, created on 2018-11-28 09:46:51
   from '/home/b/burdilo/m-denta.ru/public_html/protected/app/core/admin-template/system/include.code.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfba28f097e64_87635588',
+  'unifunc' => 'content_5bfe39db7dd0f8_38931103',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfba28f097e64_87635588 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfe39db7dd0f8_38931103 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="clipsmodal" style="display: none;">
     <section>
         <ul class="redactor_clips_box">

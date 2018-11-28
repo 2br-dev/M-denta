@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 10:26:42
+/* Smarty version 3.1.32, created on 2018-11-28 11:23:32
   from '/home/b/burdilo/m-denta.ru/public_html/protected/modules/ourworks/tpl/item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfba0327fdd36_56342134',
+  'unifunc' => 'content_5bfe508462be63_25486316',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfba0327fdd36_56342134 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfe508462be63_25486316 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="workresults">
     <div class="container-812">
         <a href="/nashi-raboty" class="nav-link"> << Наши работы</a>

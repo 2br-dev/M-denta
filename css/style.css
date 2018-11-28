@@ -1,10 +1,20 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('calibri.eot');
+    src: url('calibri.eot?#iefix') format('embedded-opentype'),
+         url('calibri.woff') format('woff'),
+         url('calibri.ttf') format('truetype'),
+         url('calibri.svg#calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body,
 html {
   background: #FFFFFF;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: "Calibri", cursive;
+  font-family: "Calibri";
   font-size: 18px;
 }
 video {
@@ -58,7 +68,7 @@ video {
 }
 .nav-link {
   color: black;
-  top: 0;
+  top: -35px;
   left: -94px;
   position: absolute;
   font-size: 24px;
@@ -106,6 +116,9 @@ video {
 }
 .hamburger {
   display: none;
+}
+form {
+  display: flex;
 }
 .half-width-column {
   width: 400px;
@@ -423,12 +436,13 @@ li:before {
   display: flex;
 }
 .main-content.content-input input {
+  padding-left: 20px;
   font-size: 16px;
+  height: 65px;
   background: white;
   border: 1px solid #c42026;
   border-radius: 10px;
   width: 330px;
-  padding: 20px 20px 15px;
   box-sizing: border-box;
 }
 .main-content.content-input input::-webkit-input-placeholder {

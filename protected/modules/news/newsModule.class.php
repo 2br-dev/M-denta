@@ -73,20 +73,21 @@ final class newsModule extends \Fastest\Core\Modules\Module
                     $news['image_file'] = $dif->getFilesByGroup($news['img'], array('original', 'sm'), array('id', 'title', 'file'), true); 
                
             }
-            // exit(__($news));
+            //exit(__($news));
             //$this->cache->setCache($cache, $team);
         }
 
         # Мета теги
         #
-        // $meta = $this->metaData($team);
+        $meta = $this->metaData($news);
+        // exit(__($meta));
 
         # Хлебные крошки
         #
        // $this->addBreadCrumbs($team, [ 'id', 'id', 'name', 'system' ]);
 
         return [
-            //'meta'              =>  $meta,
+            'meta'              =>  $meta,
             //'page'              =>  [ 'name' => '' ],
             'news'     =>  $news,
             'breadcrumbs'       =>  $this->breadcrumbs,

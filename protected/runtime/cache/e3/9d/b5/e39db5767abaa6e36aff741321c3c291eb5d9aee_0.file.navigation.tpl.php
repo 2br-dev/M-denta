@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 10:37:21
+/* Smarty version 3.1.32, created on 2018-11-28 11:39:49
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfba2b17ae2f1_89274218',
+  'unifunc' => 'content_5bfe5455416ca4_10152105',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e39db5767abaa6e36aff741321c3c291eb5d9aee' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/navigation.tpl',
-      1 => 1542963742,
+      1 => 1543235394,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfba2b17ae2f1_89274218 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfe5455416ca4_10152105 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['uri']->value[0] == "implantaciya-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="implantacia-main"><h1 class="black-centre-24">Имплантация зубов в Краснодаре</h1><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['implantaciya'], 'e');
 if ($_from !== null) {
@@ -31,7 +31,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?><p>Сегодня потеря зубов уже не считается нерешаемой проблемой. Операции по установке зубных имплантатов успешно проводятся более 40 лет. За это время они доказали свою безопасность, практичность и функциональный результат.</p></div><?php }?><img src="/img/implantaciya-main.jpg" alt="Имплантация зубов в Краснодаре в стоматологии М-Дента" title="Имплантация зубов в Краснодаре в стоматологии М-Дента"></div></section><?php }
-if ($_smarty_tpl->tpl_vars['uri']->value[0] == "protezirovanie-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="protezirovanie-main"><p class="black-centre-24">Протезирование зубов</p><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['protezirovanie'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
+if ($_smarty_tpl->tpl_vars['uri']->value[0] == "protezirovanie-zubov" && !$_smarty_tpl->tpl_vars['uri']->value[1]) {?><section class="protezirovanie-main"><h1 class="black-centre-24">Протезирование зубов в Краснодаре</h1><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['protezirovanie'])) {?><div class="container-flex-2"><div class="container-flex-2-info__text"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['protezirovanie'], 'e');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
@@ -60,7 +60,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {
 </a><?php
 }
 }
-$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?><p>Начиная с 1997 года основатели клиники - потомственная семья медиков в третьем поколении Мыльцевых - прошли большой путь, постоянно совершенствуя методы стоматологической реабилитации пациентов.</p><p><strong>Ведущие врачи имеют за плечами не только российское высшее медицинское образование, но и длительную стажировку в известных стоматологических клиниках Европы и США.</strong></p></div><?php }?><img src="/img/about-first.png" alt="protezirovanie-main"></div></section><?php }?>    
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?><p>Начиная с 1997 года основатели стоматологической клиники M-Denta - потомственная семья медиков в третьем поколении Мыльцевых - прошли большой путь, постоянно совершенствуя методы стоматологической реабилитации пациентов.</p><p><strong>Ведущие врачи клиники имеют за плечами не только российское высшее медицинское образование, но и длительную стажировку в известных стоматологических клиниках Европы и США.</strong></p></div><?php }?><img src="/img/about-first.png" alt="protezirovanie-main"></div></section><?php }?>    
 
 <?php }
 }

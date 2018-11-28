@@ -1,6 +1,19 @@
 @media screen and (max-width: 481px) {
   .hamburger-slide {
-    height: 90vh;
+    height: fit-content;
+  }
+  li {
+    line-height: unset;
+  }
+  h1 {
+  	font-size: 1.75em;
+  } 
+  .main-content.content-circles-item-number {
+  	margin-top: 60px;
+    font-size: 70px !important;
+  }
+  .about-main .wrapper {
+    padding-top: 1px;
   }
   .hamburger-logo {
     position: unset;
@@ -22,6 +35,8 @@
     margin: 40px auto 0;
     width: 90%;
   }
+  .container-flex-pl13 p {
+    padding-left: 15px;
   .footer {
     height: 50px;
   }

@@ -70,9 +70,7 @@
     padding-left: 30px;
     width: 225px;
   }
-  .navigation {
-    display: none;
-  }
+
   .contacts-flex {
     -webkit-transform: translateX(40px);
     -ms-transform: translateX(40px);

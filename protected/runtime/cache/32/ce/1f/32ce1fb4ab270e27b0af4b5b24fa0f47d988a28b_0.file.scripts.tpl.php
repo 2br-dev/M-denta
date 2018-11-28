@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-26 10:37:21
+/* Smarty version 3.1.32, created on 2018-11-28 11:39:49
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/scripts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfba2b17bce23_58059804',
+  'unifunc' => 'content_5bfe5455421966_44677604',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfba2b17bce23_58059804 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bfe5455421966_44677604 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/b/burdilo/m-denta.ru/public_html/protected/app/libs/smarty.plugins/function.compress.php','function'=>'smarty_function_compress',),));
 ?><!-- <?php echo '<script'; ?>
  src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"><?php echo '</script'; ?>

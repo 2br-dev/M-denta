@@ -38,13 +38,13 @@
     height: 250px;
   }
   .hamburger-slide {
-    height: 90vh;
+    height: fit-content;
   }
   .hamburger-adress {
     display: none !important;
   }
   .hamburger-slide-container {
-    height: 95%;
+    height: fit-content;
   }
   .hamburger-slide a {
     width: 100%;
@@ -74,7 +74,7 @@
     align-items: center;
   }
   .main-content.content-input {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   .main-content.content-doctors {
     -webkit-box-orient: vertical;
