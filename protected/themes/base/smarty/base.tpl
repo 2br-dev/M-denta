@@ -5,6 +5,11 @@
 
 {include file="./components/header.tpl"}
 {include file="./components/banner.tpl"}
+
+{if $uri[0] == ''}
+  {include file="./components/christmas.tpl"}
+{/if}
+
 {include file="./components/services.tpl"}
 {include file="./components/navigation.tpl"}
 

@@ -1432,3 +1432,16 @@ hr {
     display: none;
   }
 }
+.christmas-banner {
+  height: 123px;
+  background: url(../img/ng/snowfall.gif) repeat;
+}
+.christmas-banner-text {
+  height: 70px;
+  background: url(../img/ng/christmas-text.png) no-repeat center/contain;
+}
+@media all and (max-width: 1023px) {
+  .christmas {
+    display: none;
+  }
+}
