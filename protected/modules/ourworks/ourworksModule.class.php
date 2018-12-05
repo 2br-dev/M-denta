@@ -27,7 +27,7 @@ final class ourworksModule extends \Fastest\Core\Modules\Module
 
         if (!($ourworks = $this->compiled($cache)))
         {
-            $ourworks = Q("SELECT * FROM `#_mdd_ourworks` WHERE `visible`=1")->all();
+            $ourworks = Q("SELECT * FROM `#_mdd_ourworks` WHERE `visible`= 1 ORDER BY `ord` ASC")->all();
 
             if (!empty($ourworks)){
                 $dif = new \Files();

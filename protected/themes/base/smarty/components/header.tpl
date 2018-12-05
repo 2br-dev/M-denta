@@ -1,6 +1,6 @@
 {strip}
     <header class="header">
-        <a href="/"><img class="header-logo"src="/img/logo.png" alt="M-Denta"></a>
+        <a href="/"><img class="header-logo" src="/img/logo.png" alt="M-Denta"></a>
         {if isset($_sitemenu.header_menu) nocache}
             <div class="header-links">
                 {foreach $_sitemenu.header_menu as $e}

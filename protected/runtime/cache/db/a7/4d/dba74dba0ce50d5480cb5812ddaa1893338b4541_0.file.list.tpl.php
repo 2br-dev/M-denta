@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-28 11:23:28
+/* Smarty version 3.1.32, created on 2018-12-05 12:06:35
   from '/home/b/burdilo/m-denta.ru/public_html/protected/modules/ourworks/tpl/list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfe50809a62f4_18971190',
+  'unifunc' => 'content_5c07951b428145_37594625',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dba74dba0ce50d5480cb5812ddaa1893338b4541' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/modules/ourworks/tpl/list.tpl',
-      1 => 1542965574,
+      1 => 1543851847,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfe50809a62f4_18971190 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c07951b428145_37594625 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="ourworks">
   <div class="container-812">
-    <p class="black-centre-24">Наши работы</p>
+    <h1 class="black-centre-24">Наши работы</h1>
   </div>
 
   <div class="ourworks-container">

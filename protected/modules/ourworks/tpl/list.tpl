@@ -1,6 +1,6 @@
 <section class="ourworks">
   <div class="container-812">
-    <p class="black-centre-24">Наши работы</p>
+    <h1 class="black-centre-24">Наши работы</h1>
   </div>
 
   <div class="ourworks-container">

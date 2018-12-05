@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-28 11:39:49
+/* Smarty version 3.1.32, created on 2018-12-05 17:01:16
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfe54553f05d4_25189585',
+  'unifunc' => 'content_5c07da2c40bab7_47330149',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'abea97c6e862e2a40f7198f96a2cc135d7640b3f' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/header.tpl',
-      1 => 1542965574,
+      1 => 1543410104,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfe54553f05d4_25189585 (Smarty_Internal_Template $_smarty_tpl) {
-?><header class="header"><a href="/"><img class="header-logo"src="/img/logo.png" alt="M-Denta"></a><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['header_menu'])) {?><div class="header-links"><?php
+function content_5c07da2c40bab7_47330149 (Smarty_Internal_Template $_smarty_tpl) {
+?><header class="header"><a href="/"><img class="header-logo" src="/img/logo.png" alt="M-Denta"></a><?php if (isset($_smarty_tpl->tpl_vars['_sitemenu']->value['header_menu'])) {?><div class="header-links"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['_sitemenu']->value['header_menu'], 'e');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['e']->value) {

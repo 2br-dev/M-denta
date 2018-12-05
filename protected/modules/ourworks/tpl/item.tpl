@@ -2,7 +2,7 @@
     <div class="container-812">
         <a href="/nashi-raboty" class="nav-link"> << Наши работы</a>
 
-          <p class="black-centre-24">{$ourworks.title}</p>
+          <h1 class="black-centre-24">{$ourworks.title}</h1>
 
     </div>
 

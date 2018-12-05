@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-28 11:39:49
+/* Smarty version 3.1.32, created on 2018-12-05 17:01:16
   from '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/meta.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfe54553deb28_87267658',
+  'unifunc' => 'content_5c07da2c3f32f2_59992551',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ac0f45da910ce3de29ce350e6a0b8d27d3e1efc5' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/themes/base/smarty/components/meta.tpl',
-      1 => 1542971407,
+      1 => 1543410045,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfe54553deb28_87267658 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c07da2c3f32f2_59992551 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html class="no-js" itemscope="itemscope" itemtype="http://schema.org/<?php if (!isset($_smarty_tpl->tpl_vars['uri']->value[1])) {?>WebPage<?php } else { ?>ItemPage<?php }?>" lang="<?php echo $_smarty_tpl->tpl_vars['_page']->value['lang'];?>
 ">
 <head>
 	<title itemprop="name"><?php echo $_smarty_tpl->tpl_vars['_meta']->value['title'];?>
 </title>
-	<meta name="author" content="serhserhserh">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
 
@@ -44,7 +43,7 @@ function content_5bfe54553deb28_87267658 (Smarty_Internal_Template $_smarty_tpl)
     <meta content="<?php echo $_smarty_tpl->tpl_vars['_meta']->value['keywords'];?>
 " name="keywords">
     <meta content="<?php echo $_smarty_tpl->tpl_vars['_meta']->value['description'];?>
-" name="description" itemprop="description">
+" name="description">
 	
 	<meta content="<?php echo $_smarty_tpl->tpl_vars['_page']->value['lang'];?>
 " itemprop="inLanguage">
@@ -90,7 +89,7 @@ function content_5bfe54553deb28_87267658 (Smarty_Internal_Template $_smarty_tpl)
 	
 	<!-- Yandex.Metrika counter -->
 	<?php echo '<script'; ?>
- type="text/javascript" >
+>
 	    (function (d, w, c) {
 	        (w[c] = w[c] || []).push(function() {
 	            try {

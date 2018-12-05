@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-11-28 11:23:32
+/* Smarty version 3.1.32, created on 2018-12-05 12:48:02
   from '/home/b/burdilo/m-denta.ru/public_html/protected/modules/ourworks/tpl/item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5bfe508462be63_25486316',
+  'unifunc' => 'content_5c079ed232d830_57976319',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6ec4053273b51d28fd4597bb6f85a9880bb5a18b' => 
     array (
       0 => '/home/b/burdilo/m-denta.ru/public_html/protected/modules/ourworks/tpl/item.tpl',
-      1 => 1542965574,
+      1 => 1543851811,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5bfe508462be63_25486316 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5c079ed232d830_57976319 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="workresults">
     <div class="container-812">
         <a href="/nashi-raboty" class="nav-link"> << Наши работы</a>
 
-          <p class="black-centre-24"><?php echo $_smarty_tpl->tpl_vars['ourworks']->value['title'];?>
-</p>
+          <h1 class="black-centre-24"><?php echo $_smarty_tpl->tpl_vars['ourworks']->value['title'];?>
+</h1>
 
     </div>
 

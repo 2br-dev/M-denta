@@ -34,7 +34,7 @@ final class newsModule extends \Fastest\Core\Modules\Module
         #
         if (!($news = $this->compiled($cache)))
         {
-            $news = Q("SELECT * FROM `#_mdd_news` WHERE `visible`=1 ORDER BY `ord` ASC")->all();
+            $news = Q("SELECT * FROM `#_mdd_news` WHERE `visible`=1 ORDER BY `ord` DESC")->all();
 
             if (!empty($news)){
                 $dif = new \Files();
